@@ -1,0 +1,16 @@
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div>
+        <label>Title:</label>
+        {{ form.title() }}
+    </div>
+    <div>
+        <label>Description:</label>
+        {{ form.description() }}
+    </div>
+    <div>
+        <label>Tags:</label>
+        {{ form.tags() }}
+    </div>
+    <button type="submit">Save Changes</button>
+</form>
